@@ -181,6 +181,32 @@
   height: 100px;
   padding: 0 10px;
 }
-/*aboutus*/
+/*aboutsection*/
+.about-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  
+}
+.service button{
+  background-color: #264788;
+  color: white;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-color: transparent;
+  border-radius: 8px;
+  width: 200px;
 
+
+}
+.service h1{
+  font-size: 32px;
+  color: black;
+  margin: 0px 0px 16px;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+}
 
