@@ -15,6 +15,10 @@
   padding-bottom: 60px;
 }
 
+.text-center{
+  text-align: center;
+}
+
 /* Topbar */
 .topbar {
   display: flex;
@@ -209,4 +213,93 @@
   display: flex;
   flex-direction: column;
 }
+/* class */
+.upcoming-class{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  
+}
+.class-btn{
+  color: #264788;
+  font-size: 16px;
+  border: transparent;
+  background-color:transparent;
+}
 
+
+
+/* card */
+.card-grp{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  box-shadow: 0px 0px 20px 0px rgb(90, 83, 83);
+  border-radius: 8px;
+  width: 310px;
+
+}
+.card-img{
+  padding: 8px;
+  border-radius: 8px;
+
+}
+.card-img img{
+  height: 200px;
+  width: 300px;
+  object-fit: contain;
+}
+.card-content{
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-content .price{
+  color: gray;
+  font-size: 16px;
+}
+.price span{
+  color: red;
+  text-decoration: line-through;
+}
+.card-content .title{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+.description span{
+  font-weight: bold;
+}
+.class-details{
+  border: 0.5px solid rgb(196, 196, 196);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.duration,
+.time,
+.type{
+text-align: center;  
+}
+.type{
+  border-left: 0.5px solid rgb(196, 196, 196);
+  border-right: 0.5px solid rgb(196, 196, 196) ;
+  padding: 0 15px;
+}
+.duration h4,
+.type h4,
+.time h4{
+  font-weight: bold;
+  font-size: 14px;
+}
+.duration p,
+.type p,
+.time p{
+  font-size: 12px;
+  color: gray;
+}
