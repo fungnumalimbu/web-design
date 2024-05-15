@@ -221,14 +221,15 @@
   gap: 40px;
   
 }
+
 .class-btn{
-  color: #264788;
-  font-size: 16px;
-  border: transparent;
-  background-color:transparent;
+  text-align: end;
+  font-size: 20px;
 }
 
-
+.div-a{
+  text-decoration: none;
+}
 
 /* card */
 .card-grp{
@@ -302,4 +303,41 @@ text-align: center;
 .time p{
   font-size: 12px;
   color: gray;
+}
+/* get admission */
+.background{
+  background-color: #fcece9;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  
+}
+.title{
+  color: #dd4a2a;
+  font-size: 32px;
+  margin: 0px 0px 8px;
+  
+
+}
+
+.description{
+  text-align: center;
+  height: 50px;
+  font-size: 16px;
+}
+
+.btn{
+  background-color: #dd4a2a;
+  color:#ffffff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  height: 40px;
+  width: 360px;
+  transition: all .5s;
+}
+.btn:hover{
+  background-color: #a13a22;
 }
