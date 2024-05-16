@@ -1,0 +1,48 @@
+/* base */
+*{
+    padding: 0;
+    margin: 0;
+}
+.certificate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:palevioletred;
+    position: relative;
+}
+.name{
+    position: absolute;
+    top: 310px;
+    left: 550px;
+}
+.course{
+    position: absolute;
+    top: 410px;
+    left: 490px;
+}
+.day{
+    position: absolute;
+    top: 470px;
+    left: 430px;
+    font-size: 20px;
+    
+}
+.month{
+    position: absolute;
+    top: 460px;
+    left: 620px;
+    font-size: 24px;
+    
+}
+.year{
+    position: absolute;
+    top: 515px;
+    left: 580px;
+    font-size: 20px;
+}
+.sign{
+    position: absolute;
+    top: 570px;
+    left: 450px;
+    font-size: 25px;
+}
